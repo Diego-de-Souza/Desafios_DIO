@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section#lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#fumularioTarefas {
+    margin-bottom: 20px;
+}
+
+#entradaTarefa {
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 24px;
+}
+
+button {
+    border: 1px solid rgb(105, 197, 255);
+    border-radius: 6px;
+    background-color: rgb(227, 248, 255);
+    height: 24px;
+    padding: 0 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+section#listaTarefas {
+    display: none;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid rgba(58, 59, 59, 0.774);
+    background-color: rgba(151, 146, 146, 0.438);
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
