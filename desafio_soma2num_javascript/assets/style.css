@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0 20px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+#sub_principal {
+    display: flex;
+    flex-direction: row;
+}
+
+#enviodados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#somarNumeros {
+    background-color: rgba(11, 213, 240, 0.555);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#entradaDados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.entradas {
+    text-indent: 5px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#resultado {
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+}
